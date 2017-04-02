@@ -13,6 +13,7 @@
 		88D4572C1E9195E000BE9EFC /* Notify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88D4572A1E9195E000BE9EFC /* Notify.xcdatamodeld */; };
 		88D4572E1E9195E000BE9EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88D4572D1E9195E000BE9EFC /* Assets.xcassets */; };
 		88D457311E9195E000BE9EFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88D4572F1E9195E000BE9EFC /* LaunchScreen.storyboard */; };
+		88D457391E919CE800BE9EFC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D457381E919CE800BE9EFC /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		88D4572D1E9195E000BE9EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88D457301E9195E000BE9EFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88D457321E9195E000BE9EFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D457381E919CE800BE9EFC /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				88D457231E9195E000BE9EFC /* AppDelegate.swift */,
 				88D457251E9195E000BE9EFC /* ViewController.swift */,
+				88D457381E919CE800BE9EFC /* Task.swift */,
 				88D457271E9195E000BE9EFC /* Main.storyboard */,
 				88D4572D1E9195E000BE9EFC /* Assets.xcassets */,
 				88D4572F1E9195E000BE9EFC /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D457391E919CE800BE9EFC /* Task.swift in Sources */,
 				88D4572C1E9195E000BE9EFC /* Notify.xcdatamodeld in Sources */,
 				88D457261E9195E000BE9EFC /* ViewController.swift in Sources */,
 				88D457241E9195E000BE9EFC /* AppDelegate.swift in Sources */,
